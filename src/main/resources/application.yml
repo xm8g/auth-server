@@ -1,0 +1,23 @@
+server:
+  port: 8082
+#spring:
+#  datasource:
+#    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: jdbc:mysql://localhost:3306/user?createDatabaseIfNotExist=true&useUnicode=true&characterEncoding=UTF-8&useTimezone=true&serverTimezone=UTC
+#    username: root
+#    password: G@lileu01
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    show-sql: true
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+aw:
+  auth:
+    provider-uri: "http://localhost:8082"
+    jks:
+      keypass: 123456
+      storepass: 123456
+      alias: awblog
+      path: keystore/awblog.jks
